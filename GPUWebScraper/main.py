@@ -49,7 +49,7 @@ for page in range(1, int(pages) + 1):
             pass
 
 # .items() returns tuple. [1] of tuple is the dictonary and we index the 'price' value to be sorted
-sorted_items = sorted(items_found.items(), lambda x: x[1]['price'])
+sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
 
 for item in sorted_items:
     print(item[0])
