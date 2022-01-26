@@ -5,4 +5,4 @@ Personal Project - GPU Web Scraper
 
 Web Scrape Results and link to Website
 
-![image](img/img1.PNG)
+![image](img/img1.png)
